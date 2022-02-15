@@ -1,0 +1,22 @@
+{
+	"name": "tsjost/tradera",
+	"description": "PHP library to browse Tradera listings",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "tsjost",
+		"email": "vcs@tsjo.st"
+	}],
+	"autoload": {
+		"psr-4": {"tsjost\\Tradera\\": "src/"}
+	},
+	"require": {
+		"php": "^8.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5"
+	},
+	"scripts": {
+		"test": "vendor/bin/phpunit --color test/"
+	}
+}
